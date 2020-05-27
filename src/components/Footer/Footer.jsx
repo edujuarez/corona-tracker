@@ -1,12 +1,12 @@
 import React from 'react'
+import { StylesProvider } from '@material-ui/core'
 
-import Styles from './Footer.module.css'
 
 const Footer = () => {
 
 
 return (
-    <div>
+    <div className={StylesProvider.container}>
         <p>Created by Kuki</p>
         <a href= "https:\\linkedin.com/in/eduardo--juarez"> Contact</a>
         <a href="https://github.com/edujuarez"> GitHub</a>
